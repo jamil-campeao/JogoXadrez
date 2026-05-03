@@ -13,7 +13,10 @@ public class Tela
                 {
                     Console.Write("- ");
                 }
-                Console.Write($"{tab.Peca(i, j)} ");
+                else
+                {
+                    Console.Write($"{tab.Peca(i, j)} ");
+                }
             }
 
             Console.WriteLine();
