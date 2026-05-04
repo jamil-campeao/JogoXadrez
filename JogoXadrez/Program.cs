@@ -36,8 +36,10 @@ namespace JogoXadrez
                         Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
-
                 }
+                
+                Console.Clear();
+                Tela.ImprimirPartida(partida);
             
             }
             catch (Exception e)
